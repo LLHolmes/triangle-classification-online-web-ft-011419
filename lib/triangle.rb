@@ -7,11 +7,11 @@ class Triangle
   end
   
   def kind
-    if a + b <= c || a = 0 || b = 0 || c = 0
+    if a + b <= c || a <= 0 || b <= 0 || c <= 0
       raise TriangleError    
     elsif a == b == c
       @type = :equilateral
-    elsif
+    elsif a == b || b == c || a == c
       
   end
   
