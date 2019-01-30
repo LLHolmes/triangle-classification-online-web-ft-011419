@@ -1,8 +1,8 @@
 class Triangle
-  def initialize(a, side2, side3)
+  def initialize(a, b, c)
     @a = a
     @b = b
-    @side3 = side3
+    @c = c
   end
   
   def kind
