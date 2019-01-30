@@ -1,5 +1,5 @@
 class Triangle
-  attr_accessor :type
+  attr_reader :type
   def initialize(a, b, c)
     @a = a
     @b = b
