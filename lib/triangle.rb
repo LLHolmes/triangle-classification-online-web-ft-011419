@@ -7,8 +7,12 @@ class Triangle
   end
   
   def kind
-    if a == b == c
+    if a + b <= c || a = 0 || b = 0 || c = 0
+      raise Trian      
+    elsif a == b == c
       @type = :equilateral
+    elsif
+      
   end
   
   class TriangleError < StandardError
