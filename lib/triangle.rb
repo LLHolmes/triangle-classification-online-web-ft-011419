@@ -12,7 +12,10 @@ class Triangle
     elsif a == b == c
       @type = :equilateral
     elsif a == b || b == c || a == c
-      
+      @type = :isosceles
+    else
+      @type = :scalene
+    end
   end
   
   class TriangleError < StandardError
